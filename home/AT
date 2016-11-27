@@ -1,2 +1,40 @@
-AT
+minicom
+
+root@Lichee:/tmp# minicom
+
+Welcome to minicom 2.6.1
+
+OPTIONS: I18n
+Compiled on Feb 11 2012, 18:45:56.
+Port /dev/ttyUSB3
+
+Press CTRL-A Z for help on special keys
+
+at
 OK
+ati
+Quectel
+EC20
+Revision: EC20CQAR02A04E2G
+
+OK
+at+cops?
++COPS: 0,0,"CHN-UNICOM",7
+
+OK
+at+creg?
++CREG: 0,1
+
+OK
+atd10010;
+OK
+at+clcc
++CLCC: 1,0,0,1,0,"",128
++CLCC: 2,0,2,0,0,"10010",129
+
+OK
+ath
+OK
+
+
+如果退出 按Ctrl+A ，再按Z，再按X退出
