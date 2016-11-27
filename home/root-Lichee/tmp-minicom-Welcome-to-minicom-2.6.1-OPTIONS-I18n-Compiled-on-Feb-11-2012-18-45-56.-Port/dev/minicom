@@ -1,5 +1,13 @@
 minicom
-
+root@Lichee:sudo apt-get install minicom
+root@Lichee: minicom -s
+-->>Serial port setup 
+ -->>按A
+   -->>改成/dev/ttyUSB3 之后按回车
+ 退回最上级
+ -->> Save setup as dfl 
+ 之后退出
+ 
 root@Lichee:/tmp# minicom
 
 Welcome to minicom 2.6.1
